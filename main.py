@@ -54,7 +54,7 @@ def main(page: ft.Page):
                         content=ft.Text(emoji, size=28),
                         width=52,
                         height=52,
-                        alignment=ft.Alignment.CENTER,
+                        alignment=ft.alignment.center,
                         bgcolor="#EAF2E4",
                         border_radius=14,
                     ),
@@ -88,7 +88,7 @@ def main(page: ft.Page):
             padding=14,
             bgcolor="white",
             border_radius=18,
-            border=ft.Border.all(1, "#E2EADF"),
+            border=ft.border.all(1, "#E2EADF"),
         )
 
     def zerar_valores(e):
@@ -109,7 +109,7 @@ def main(page: ft.Page):
                 spacing=4,
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             ),
-            padding=ft.Padding.only(bottom=16, top=8),
+            padding=ft.padding.only(bottom=16, top=8),
         ),
         nome,
         ft.Container(height=4),
