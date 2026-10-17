@@ -24,7 +24,7 @@ jobs:
       - name: Compilar Flet para Web
         run: |
           # Substitua 'main.py' pelo nome do seu arquivo Python principal se for diferente
-          flet build web main.py
+          flet build web agromoney_controle.py
 
       - name: Implantar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
